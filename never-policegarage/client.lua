@@ -68,7 +68,7 @@ AddEventHandler('never-policegarage:menu', function()
             },
         },
     }
-    for x = 1, #Config.policegarege, 1 do  -- Yukardaki tablodan  ileri doğru tekrarlar    (1) atlama sayısını gösterir
+    for x = 1, #Config.policegarege, 1 do  
 
     for a, i in pairs(Config.policegarege[x].cartype) do
         if PlayerData.job.name ==Config.policegarege[x].jobs then
