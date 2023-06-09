@@ -6,7 +6,8 @@ Config.ped={
 }
 
 Config.policegarege = 
-{   [1]={
+{ 
+    [1]={
     
     jobs="police",
     carspawn = vector4(443.9, -1020.57, 28.57, 101.4),
@@ -28,5 +29,5 @@ Config.policegarege =
     },
     },
     
-  }
+ }
   
